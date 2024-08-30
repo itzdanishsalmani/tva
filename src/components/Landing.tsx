@@ -1,12 +1,8 @@
 export const Landing = () =>{
     return (
         <div
-      className="w-screen h-screen bg-cover p-4" // Removed overflow-hidden
-      style={{
-        backgroundImage: `url('/hhh.jpg')`,
-      }}
-    >
-      <div className="w-full h-full border-8 border-orange-400 shadow-2xl shadow-orange-400 relative">
+      className="w-screen h-screen  p-4">
+      <div className="custom-div relative">
         <div className="flex justify-center items-center w-full h-full p-4">
           <div className="border text-orange-400 border-orange-400 bg-black p-2 md:p-4 text-3xl md:text-7xl font-bold">
             <span>FOR &nbsp; ALL &nbsp; TIMES. &nbsp; ALWAYS.</span>

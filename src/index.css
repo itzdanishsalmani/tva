@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    @apply bg-main-bg bg-cover h-screen overflow-hidden;
+}
+
+.custom-div {
+    /* Add your custom styles here */
+    @apply w-full h-full border-8 border-orange-400 shadow-2xl shadow-orange-400 ;
+    /* You can also add other CSS properties if needed */
+}

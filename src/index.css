@@ -11,3 +11,11 @@ body {
     @apply w-full h-full border-8 border-orange-400 shadow-2xl shadow-orange-400 ;
     /* You can also add other CSS properties if needed */
 }
+
+.img-right {
+    @apply absolute bottom-1 right-1 bg-black 
+}
+
+.menu-items {
+    @apply flex md:block absolute left-3 bottom-10  space-y-2 cursor-pointer
+}

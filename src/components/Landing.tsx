@@ -10,7 +10,7 @@ export const Landing = () =>{
             <span>FOR &nbsp; ALL &nbsp; TIMES. &nbsp; ALWAYS.</span>
           </div>
           <div className="img-right">
-            <img src="tva-removebg-preview.png" alt="" className="w-32 md:w-48" />
+          <img src="tva-removebg-preview.png" alt="" className="w-32 md:w-36" />
           </div>
           <div>
             <Menu />

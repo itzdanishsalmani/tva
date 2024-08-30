@@ -12,6 +12,9 @@ body {
     /* You can also add other CSS properties if needed */
 }
 
+.hover {
+    @apply bg-black hover:text-black hover:bg-orange-300 p-2
+}
 .img-right {
     @apply absolute bottom-1 right-1 bg-black 
 }

@@ -1,6 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Landing } from "./components/Landing";
-import { MissMinute } from "./components/MissMinute";
+import { Contact } from "./components/Contact";
+import { Project } from "./components/Project";
+import { Skills } from "./components/Skills";
 
 function App() {
   return (
@@ -9,7 +11,9 @@ function App() {
       <BrowserRouter >
         <Routes>
           <Route path="/" element={ <Landing /> } />
-          <Route path="/m" element={ <MissMinute /> } />
+          <Route path="/contact" element={ <Contact /> } />
+          <Route path="/project" element={ <Project /> } />
+          <Route path="/skills" element={ <Skills /> } />
         </Routes>
       </BrowserRouter>
       

@@ -1,6 +1,6 @@
 import { Menu,LastLine } from "./Utils"
 
-export const MissMinute = () => {
+export const Contact = () => {
     return (
         <div className="h-screen w-screen p-4 ">
             <div className="custom-div relative ">
@@ -10,19 +10,17 @@ export const MissMinute = () => {
                 <img src="giphy.webp" alt="" width={250} />
                 </div>
                 
-                <div className=" text-orange-300 space-y-6 text-4xl font-bold font-mono w-fit cursor-pointer"> 
-                    <div className="bg-black hover:text-black hover:bg-orange-300">1. LINKEDIN</div>
-                    <div className="bg-black hover:text-black hover:bg-orange-300">2. X</div>
-                    <div className="bg-black hover:text-black hover:bg-orange-300">3. GITHUB</div>
-                    <div className="bg-black hover:text-black hover:bg-orange-300">4. EMAIL</div>
+                <div className=" text-orange-400 space-y-6 text-4xl font-bold font-mono w-fit cursor-pointer"> 
+                    <div className="hover">1. LINKEDIN</div>
+                    <div className="hover">2. X</div>
+                    <div className="hover">3. GITHUB</div>
+                    <div className="hover">4. EMAIL</div>
                 </div>
                 <div className="img-right">
-                <img src="tva-removebg-preview.png" alt="" className="w-32 md:w-48" />
+                <img src="tva-removebg-preview.png" alt="" className="w-32 md:w-36" />
                 </div>
                 <div>
                     <Menu />
-                </div>
-                <div>
                     <LastLine 
                     pgno="2"
                     />

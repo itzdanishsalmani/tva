@@ -22,3 +22,7 @@ body {
 .menu-items {
     @apply flex md:block absolute left-3 bottom-10  space-y-2 cursor-pointer
 }
+
+.img-transparent {
+    @apply absolute bottom-10 right-10 bg-transparent  
+}

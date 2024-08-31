@@ -5,7 +5,7 @@ export const Project = () => {
 
         <div className="h-screen w-screen p-4 ">
             <div className="custom-div relative ">
-                <div className=" bg-orange-400 m-4 p-2 text-4xl text-center font-bold font-mono">PROJECTS </div>
+                <div className=" bg-orange-400 m-4 p-2 text-4xl text-center font-bold ">PROJECTS </div>
                 <div className="mt-12 flex justify-evenly">
                 <Card projectName='HYPERDEV'/>
                 <Card projectName='PAYZE'/>
@@ -13,7 +13,7 @@ export const Project = () => {
                 <Card projectName='PORTFOLIO'/>
                 
                 <div className="img-right">
-                <img src="tva-removebg-preview.png" alt="" className="w-32 md:w-36" />
+                <img src="tva-logo-red.png" alt="" className="w-32 md:w-36" />
                 </div>
                 <div>
                     <Menu />

@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-    @apply bg-main-bg bg-cover h-screen overflow-hidden;
+    @apply bg-main-bg bg-cover h-screen overflow-hidden font-mono
 }
 
 .custom-div {
@@ -24,5 +24,5 @@ body {
 }
 
 .img-transparent {
-    @apply absolute bottom-10 right-10 bg-transparent  
+    @apply absolute bottom-10 right-20 bg-transparent  
 }

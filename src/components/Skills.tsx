@@ -2,7 +2,7 @@ export const Skills = () => {
     return (
         <div className="relative w-screen h-screen p-4 bg-black">
             <div className="custom-div">
-                <div className=" bg-orange-700 m-4 p-2 text-4xl text-center font-bold font-mono">RESPECT THE DEADLINE</div>
+                <div className=" bg-orange-700 m-4 p-2 text-4xl text-center font-bold ">RESPECT THE DEADLINE</div>
         <div className="w-full h-fit flex justify-center pt-12">
             <video src="final.mp4" autoPlay muted loop className=" h-48" /> 
             <video src="final.mp4" autoPlay muted loop className=" h-48" /> 
@@ -11,7 +11,7 @@ export const Skills = () => {
         </div>
         <div className="bg-orange-700 h-8 mt-2 p-2"></div>
         <div className=""></div>
-        <div className="border-t-2 border-orange-400 mt-2 text-orange-400 grid grid-cols-9 p-2 font-semibold">
+        <div className=" border-t-2 border-orange-400 mt-2 text-orange-400 grid grid-cols-10 p-2 font-semibold">
             <div>
                 PROJECT#
                 <div className="mt-4">
@@ -73,12 +73,22 @@ export const Skills = () => {
             <div>
                 OTHERS
                 <div className="mt-4">
-                    <div></div>
                     <div>EXPRESS JS</div>
                     <div>PRISMA</div>
                     <div>AWS</div> 
                     <div>DOCKER</div>
                     <div>TAILWIND CSS</div>
+                </div>
+            </div>
+
+            <div className="grid col-span-2">   
+                TIME THAT REMAINS
+                <div className="mt-4">
+                    <div>02:15:02</div>
+                    <div>00:25:04</div>
+                    <div>17:07:17</div>
+                    <div>19:18:15</div>
+                    <div>91:21:59</div>
                 </div>
             </div>
 

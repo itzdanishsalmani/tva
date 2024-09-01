@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-    @apply bg-main-bg bg-cover h-screen overflow-hidden font-mono 
+    @apply bg-main-bg bg-cover overflow-hidden font-mono 
 }
 
 .custom-div {
@@ -16,11 +16,11 @@ body {
     @apply bg-black hover:text-black hover:bg-orange-300 p-2
 }
 .img-right {
-    @apply absolute bottom-1 right-1 bg-black 
+    @apply absolute bottom-10 right-1 bg-black 
 }
 
 .menu-items {
-    @apply flex md:block absolute left-3 bottom-6 md:bottom-10 md:space-y-2 space-x-2 md:space-x-0 cursor-pointer
+    @apply flex md:block absolute left-3 bottom-10 md:space-y-2 space-x-2 md:space-x-0 cursor-pointer
 }
 
 .img-transparent {

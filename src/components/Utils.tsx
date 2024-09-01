@@ -4,10 +4,10 @@ export const Menu = () => {
   const navigate = useNavigate()
 return (
         <div className="menu-items">
-            <img src="three.svg" alt="" width={40} />
-            <img src="two.svg" alt="" width={40} onClick={()=>navigate('/project')}/>
-            <img src="four.svg" alt="" width={40}  onClick={()=>navigate('/contact')}/>
-            <img src="five.svg" alt="" width={40}  onClick={()=>navigate('/skills')}/>
+            <div><img src="three.svg" alt="" width={40} onClick={()=>navigate('/intro')} /></div>
+            <div><img src="two.svg" alt="" width={40} onClick={()=>navigate('/project')}/></div>
+            <div><img src="four.svg" alt="" width={40}  onClick={()=>navigate('/contact')}/></div>
+            <div><img src="five.svg" alt="" width={40}  onClick={()=>navigate('/skills')}/></div>
             {/* <img src="seven.svg" alt="" width={40} /> */}
           </div>
   )
@@ -30,7 +30,7 @@ interface ProjectCardProps {
   title:string,
   description:string,
   skills:string,
-  livelink:string
+  livelink?:string
 }
 
 export const ProjectCard = ({img,title,description,skills,livelink}:ProjectCardProps) => {

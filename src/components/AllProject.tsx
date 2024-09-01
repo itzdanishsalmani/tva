@@ -1,6 +1,8 @@
+import { useNavigate } from 'react-router-dom'
 import { Menu,LastLine } from './Utils'
 
 export const Project = () => {
+    const navigate = useNavigate()
     return (
 
         <div className="h-screen w-screen p-4 ">
@@ -8,10 +10,10 @@ export const Project = () => {
                 <div className=" bg-orange-400 m-4 p-2 text-4xl text-center font-bold">PROJECTS</div>
                 <div className="mt-12 flex justify-center">
                 <div className='grid grid-cols-2 md:grid-cols-4 md:gap-24'>
-                <Card projectName='HYPERDEV' />
-                <Card projectName='PAYZE' />
-                <Card projectName='MEDIUMM' />
-                <Card projectName='TESTIMONIAL' />
+                <Card projectName='HYPERDEV'    img='project-icon.svg' link={()=>navigate('/project-1')}/>
+                <Card projectName='PAYZE'       img='project-icon.svg' link={()=>navigate('/project-2')}/>
+                <Card projectName='MEDIUMM'     img='project-icon.svg' link={()=>navigate('/project-3')}/>
+                <Card projectName='TESTIMONIAL' img='loading.svg'      link={()=>navigate('/project-4')}/>
                 </div>
                 <div className="img-right">
                 <img src="tva-logo-red.png" alt="" className="w-32 md:w-36" />
@@ -29,16 +31,19 @@ export const Project = () => {
 }
 
 interface projectNameProps {
-    projectName:string
+    projectName:string,
+    img:string,
+    link:(event:React.MouseEvent<HTMLElement>) => void
     
 }
 
-const Card = ({projectName}:projectNameProps) => {
+const Card = ({projectName,img,link}:projectNameProps) => {
     return (
         <div>
         <div className="border-4 border-orange-400 shadow-lg shadow-orange-300 w-32 h-48 md:w-48 md:h-72 cursor-pointer">
             <div className='flex justify-center items-center h-full'>
-                <img src="project-icon.svg" alt="" width={50} className='shadow-orange-300 shadow-lg'/>
+                <img src={img} alt="" width={50} className='shadow-orange-300 shadow-lg'
+                onClick={link}/>
             </div>
         </div>
         <div className="mt-8 text-center text-2xl  font-bold bg-black text-orange-400">{projectName}</div>

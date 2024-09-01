@@ -3,16 +3,16 @@ export const Skills = () => {
         <div className="relative w-screen h-screen p-4 bg-black">
             <div className="custom-div">
                 <div className=" bg-orange-700 m-4 p-2 text-4xl text-center font-bold ">RESPECT THE DEADLINE</div>
-        <div className="w-full h-fit flex justify-center pt-12">
-            <video src="final.mp4" autoPlay muted loop className=" h-48" /> 
-            <video src="final.mp4" autoPlay muted loop className=" h-48" /> 
+        <div className="w-full h-fit flex justify-center md:pt-12">
+            <video src="final.mp4" autoPlay muted loop className="h-24 md:h-48" /> 
+            <video src="final.mp4" autoPlay muted loop className="hidden md:block h-48" /> 
         </div>
         <div className="bg-orange-700 h-2 mt-2">
         </div>
         <div className="bg-orange-700 h-8 mt-2 p-2"></div>
         <div className=""></div>
-        <div className=" border-t-2 border-orange-400 mt-2 text-orange-400 grid grid-cols-10 p-2 font-semibold">
-            <div>
+        <div className=" border-t-2 border-orange-400 mt-2 space-y-6 md:space-y-0 text-orange-400 grid grid-cols-2 md:grid-cols-10 p-2 font-semibold">
+            <div className="hidden md:block">
                 PROJECT#
                 <div className="mt-4">
                     <div>46412321=091</div>
@@ -23,7 +23,7 @@ export const Skills = () => {
                 </div>
             </div>
 
-            <div>
+            <div className="hidden md:block">
                 TEAM
                 <div className="mt-4">
                     <div>934</div>
@@ -81,7 +81,7 @@ export const Skills = () => {
                 </div>
             </div>
 
-            <div className="grid col-span-2">   
+            <div className="grid md:col-span-2">   
                 TIME THAT REMAINS
                 <div className="mt-4">
                     <div>02:15:02</div>
@@ -93,7 +93,7 @@ export const Skills = () => {
             </div>
 
             <div className="img-transparent">
-                <img src="mm2.webp" alt="" className="w-48" />
+                <img src="mm2.webp" alt="" className="w-32 md:w-48" />
             </div>
             
         </div>

@@ -7,7 +7,7 @@ export const Landing = () =>{
       <div className="custom-div relative">
         <div className="flex justify-center items-center w-full h-full p-4">
           <div className="border text-orange-400 border-orange-400 bg-black p-2 md:p-4 text-3xl md:text-7xl font-bold">
-            <span>FOR &nbsp; ALL &nbsp; TIMES. &nbsp; ALWAYS.</span>
+            <span>FOR ALL TIMES. ALWAYS.</span>
           </div>
           <div className="img-right">
           <img src="tva-logo-red.png" alt="" className="w-32 md:w-36" />

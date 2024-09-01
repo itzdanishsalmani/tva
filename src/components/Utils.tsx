@@ -19,7 +19,7 @@ interface LastLineProps {
 
 export const LastLine = ({pgno}:LastLineProps) => {
     return (
-        <div className="text-orange-400 absolute bottom-1 left-4 ">
+        <div className="text-orange-400 absolute bottom-1 left-4 hidden md:block">
           {pgno} &nbsp; TIME VARIANCE AUTHORITY COMMISSION PRESENTATION COMMISSION // DSTROY.CO
         </div>
     )

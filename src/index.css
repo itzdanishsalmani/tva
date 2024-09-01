@@ -24,5 +24,5 @@ body {
 }
 
 .img-transparent {
-    @apply absolute bottom-10 right-20 bg-transparent  
+    @apply absolute bottom-10 right-10 md:right-20 bg-transparent  
 }

@@ -20,7 +20,7 @@ body {
 }
 
 .menu-items {
-    @apply flex md:block absolute left-3 bottom-10  space-y-2 cursor-pointer
+    @apply flex md:block absolute left-3 bottom-6 md:bottom-10 md:space-y-2 space-x-2 md:space-x-0 cursor-pointer
 }
 
 .img-transparent {

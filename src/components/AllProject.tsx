@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom'
-import { Menu,LastLine } from './Utils'
+import { Menu,LastLine } from './others/Utils'
 
 export const Project = () => {
     const navigate = useNavigate()
@@ -21,7 +21,7 @@ export const Project = () => {
                 <div>
                     <Menu />
                     <LastLine 
-                    pgno="3"
+                    pgno="2"
                     />
                 </div>
                 </div>

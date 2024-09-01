@@ -1,4 +1,4 @@
-import { Menu,LastLine } from "./Utils"
+import { Menu,LastLine } from "./others/Utils"
 
 export const Landing = () =>{
     return (
@@ -17,7 +17,7 @@ export const Landing = () =>{
           </div>
           <div>
             <LastLine 
-            pgno={"1"}
+            pgno={"0"}
             />
           </div>
           

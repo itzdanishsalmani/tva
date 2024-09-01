@@ -9,6 +9,7 @@ export const Project1 = () => {
             description="Full stack web application in MERN Stack with PayPal Payment Gateway, where Admin can perform CRUD operation and Users can buy courses."
             skills="React, Express, MongoDB, Nodejs, Tailwind CSS, PayPal API, Vercel" 
             livelink="https://hyperdev.vercel.app"
+            pageno="3"
             />
         </div>
     )

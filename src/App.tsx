@@ -4,10 +4,10 @@ import { Contact } from "./components/Contact";
 import { Project } from "./components/AllProject";
 import { Skills } from "./components/Skills";
 import { Intro } from "./components/Intro";
-import { Project1 } from "./components/Project1";
-import { Project2 } from "./components/Project2";
-import { Project3 } from "./components/Project3";
-import { Project4 } from "./components/Project4"; 
+import { Project1 } from "./components/others/Project1";
+import { Project2 } from "./components/others/Project2";
+import { Project3 } from "./components/others/Project3";
+import { Project4 } from "./components/others/Project4"; 
 
 function App() {
   return (

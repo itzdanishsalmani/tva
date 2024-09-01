@@ -10,11 +10,11 @@ export const Contact = () => {
                 <img src="giphy.webp" alt="" width={250} />
                 </div>
                 
-                <div className=" text-orange-400 space-y-6 text-4xl font-bold  w-fit cursor-pointer"> 
-                    <div className="hover">1. LINKEDIN</div>
-                    <div className="hover">2. X</div>
-                    <div className="hover">3. GITHUB</div>
-                    <div className="hover">4. EMAIL</div>
+                <div className=" text-orange-400 space-y-6 text-4xl font-bold w-fit cursor-pointer"> 
+                    <div className="hover">1. <Link link="https://" text="LINKEDIN" /> </div>
+                    <div className="hover">2. <Link link="https://www.x.com/itzzdanish" text="X" /></div>
+                    <div className="hover">3. <Link link="https://www.github.com/itzdanishsalmani" text="GITHUB" /></div>
+                    <div className="hover">4. <Mail text="EMAIL"/></div>
                 </div>
                 <div className="img-right">
                 <img src="tva-logo-red.png" alt="" className="w-32 md:w-36" />
@@ -28,5 +28,26 @@ export const Contact = () => {
                 </div>
             </div>
         </div>
+    )
+}
+
+interface linkProps {
+    link:string
+    text:string
+}
+
+export const Link = ({link,text}:linkProps) => {
+    return (
+        <>
+            <a href={link} target="_blank" rel="noopener noreferrer">{text}</a>
+        </>
+    )
+}
+
+export const Mail = ({text}:any) => {
+    return (
+        <>
+        <a href="mailto:salmanidanish488@gmail.com">{text}</a>
+        </>
     )
 }

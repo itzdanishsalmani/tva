@@ -29,10 +29,11 @@ interface ProjectCardProps {
   img:string,
   title:string,
   description:string,
-  skills:string
+  skills:string,
+  livelink:string
 }
 
-export const ProjectCard = ({img,title,description,skills}:ProjectCardProps) => {
+export const ProjectCard = ({img,title,description,skills,livelink}:ProjectCardProps) => {
   return (
     <div  className="w-full h-full">
        <div className="custom-div relative ">
@@ -45,10 +46,11 @@ export const ProjectCard = ({img,title,description,skills}:ProjectCardProps) => 
                 </div>
                 </div>
                 
-                <div className=" text-orange-400 space-y-6 text-xl font-bold  w-fit cursor-pointer text-center"> 
+                <div className=" text-orange-400 space-y-6 text-xl font-bold w-fit text-center"> 
                     <div className="hover"> {title}</div>
                     <div className="hover"> {description}</div>
                     <div className="hover"> {skills}</div>
+                    <div className="hover cursor-pointer"><a href={livelink} target="_blank" rel="noopener noreferrer">Link</a></div>
                 </div>
                 <div className="img-right">
                 <img src="tva-logo-red.png" alt="" className="w-32 md:w-36" />

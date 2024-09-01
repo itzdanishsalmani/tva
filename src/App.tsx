@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Landing } from "./components/Landing";
 import { Contact } from "./components/Contact";
-import { Project } from "./components/Project";
+import { Project } from "./components/AllProject";
 import { Skills } from "./components/Skills";
 import { Project1 } from "./components/Project1";
 import { Project2 } from "./components/Project2";

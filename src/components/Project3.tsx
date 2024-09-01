@@ -8,7 +8,8 @@ export const Project3 = () => {
             title="Payze"
             description="It is an online payment web application in MERN Stack where users can send payment to each other with virtual money."
 
-            skills="React, Express, MongoDB Atlas, Node.js, Tailwind CSS, Vercel" />
+            skills="React, Express, MongoDB Atlas, Node.js, Tailwind CSS, Vercel"
+            livelink="https://www.payze.vercel.app" />
         </div>
     )
 }

@@ -5,12 +5,12 @@ export const Project = () => {
 
         <div className="h-screen w-screen p-4 ">
             <div className="custom-div relative ">
-                <div className=" bg-orange-400 m-4 p-2 text-4xl text-center font-bold ">PROJECTS </div>
+                <div className=" bg-orange-400 m-4 p-2 text-4xl text-center font-bold ">PROJECTS</div>
                 <div className="mt-12 flex justify-evenly">
-                <Card projectName='HYPERDEV'/>
-                <Card projectName='PAYZE'/>
-                <Card projectName='MEDIUMM'/>
-                <Card projectName='PORTFOLIO'/>
+                <Card projectName='HYPERDEV' />
+                <Card projectName='PAYZE' />
+                <Card projectName='MEDIUMM' />
+                <Card projectName='TESTIMONIAL' />
                 
                 <div className="img-right">
                 <img src="tva-logo-red.png" alt="" className="w-32 md:w-36" />
@@ -29,6 +29,7 @@ export const Project = () => {
 
 interface projectNameProps {
     projectName:string
+    
 }
 
 const Card = ({projectName}:projectNameProps) => {

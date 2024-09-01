@@ -8,7 +8,8 @@ export const Project4 = () => {
             img="/testimonial.png"
             title=""
             description="working"
-            skills="" />
+            skills=""
+            livelink="" />
         </div>
         </div>
     )

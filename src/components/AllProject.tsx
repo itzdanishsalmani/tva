@@ -7,8 +7,8 @@ export const Project = () => {
 
         <div className="h-screen w-screen p-4 ">
             <div className="custom-div relative ">
-                <div className=" bg-orange-400 m-4 p-2 text-4xl text-center font-bold">PROJECTS</div>
-                <div className="mt-12 flex justify-center">
+                <div className=" bg-orange-400 m-4 p-2 text-2xl md:text-4xl text-center font-bold">PROJECTS</div>
+                <div className="md:mt-12 flex justify-center">
                 <div className='grid grid-cols-2 md:grid-cols-4 md:gap-24'>
                 <Card projectName='HYPERDEV'    img='project-icon.svg' link={()=>navigate('/project-1')}/>
                 <Card projectName='PAYZE'       img='project-icon.svg' link={()=>navigate('/project-2')}/>
@@ -40,13 +40,13 @@ interface projectNameProps {
 const Card = ({projectName,img,link}:projectNameProps) => {
     return (
         <div>
-        <div className="border-4 border-orange-400 shadow-lg shadow-orange-300 w-32 h-48 md:w-48 md:h-72 cursor-pointer">
+        <div className="border-4 border-orange-400 shadow-lg shadow-orange-300 w-28 h-36 md:w-48 md:h-72 cursor-pointer">
             <div className='flex justify-center items-center h-full'>
                 <img src={img} alt="" width={50} className='shadow-orange-300 shadow-lg'
                 onClick={link}/>
             </div>
         </div>
-        <div className="mt-8 text-center text-2xl  font-bold bg-black text-orange-400">{projectName}</div>
+        <div className="mt-8 text-center text-xl md:text-2xl font-bold bg-black text-orange-400">{projectName}</div>
         </div>
     )
 }

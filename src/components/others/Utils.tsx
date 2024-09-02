@@ -37,16 +37,16 @@ export const ProjectCard = ({img,title,description,skills,livelink,pageno}:Proje
   return (
     <div  className="w-full h-full">
        <div className="custom-div relative ">
-                <div className=" bg-orange-400 m-4 p-2 text-4xl text-center font-bold ">DESCRIPTION OF PROJECT</div>
-                <div className=" flex flex-col md:flex-row justify-center items-center mt-4 md:mt-12 px-4 md:px-24 space-x-4">
-                <div className=" py-8 md:py-12 px-2 border-4 border-orange-400 shadow-lg shadow-orange-300 w-fit h-fit">
-                  <div className="my mx-8 border-2 border-orange-400 shadow-lg shadow-orange-300 ">
+                <div className=" bg-orange-400 m-2 md:m-4 md:p-2 text-2xl md:text-4xl text-center font-bold ">DESCRIPTION OF PROJECT</div>
+                <div className=" flex flex-col md:flex-row justify-center items-center mt-2 md:mt-12 px-4 md:px-24 space-x-2">
+                <div className=" py-3 md:py-12 px-2 border-4 border-orange-400 shadow-lg shadow-orange-300 w-fit h-fit">
+                  <div className="mx-8 border-2 border-orange-400 shadow-lg shadow-orange-300 ">
                     
                     <img src={img} alt="" width={500} />
                 </div>
                 </div>
                 
-                <div className=" mt-6 text-orange-400 space-y-6 md:text-xl font-bold w-fit text-center"> 
+                <div className=" mt-6 text-orange-400 space-y-1 md:space-y-6 md:text-xl font-bold w-fit text-center"> 
                     <div className="hover"> {title}</div>
                     <div className="hover"> {description}</div>
                     <div className="hover"> {skills}</div>

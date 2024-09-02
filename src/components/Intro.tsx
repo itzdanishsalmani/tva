@@ -30,6 +30,12 @@ export const Intro = () => {
                     <div>RESUME</div>
                     <div><img src="arrow.svg" alt="" width={25}/></div> 
                 </a>
+                <div>
+                <a href="https://danishsalmani.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex items-center">
+                    <div>PORTFOLIO</div>
+                    <div><img src="arrow.svg" alt="" width={25}/></div> 
+                </a>
+                </div>
             </div>
           </div>
           <div className="mt-6 font-bold">

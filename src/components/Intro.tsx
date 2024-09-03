@@ -44,7 +44,7 @@ export const Intro = () => {
                 I'm a passionate and dedicated developer. My expertise lies in
                 the MERN stack, TypeScript, and PostgreSQL. With a strong
                 foundation in these technologies, I have successfully built
-                three full-stack projects, showcasing my ability to develop
+                several full-stack projects, showcasing my ability to develop
                 robust and scalable web applications.
               </span>
             </div>

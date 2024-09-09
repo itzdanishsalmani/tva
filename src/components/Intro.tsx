@@ -48,8 +48,8 @@ export const Intro = () => {
                 robust and scalable web applications.
               </span>
             </div>
-            <div>
-              <span className="hidden md:block bg-black text-sm md:text-base">
+            <div className="hidden md:block">
+              <span className="bg-black text-sm md:text-base">
                 I thrive on solving complex problems and continuously improving
                 my skills. My journey in web development has equipped me with
                 the knowledge and experience to create efficient and
@@ -57,8 +57,8 @@ export const Intro = () => {
                 technologies and take on challenging projects.
               </span>
             </div>
-            <div>
-              <span className="hidden md:block bg-black text-sm md:text-base">
+            <div className="hidden md:block">
+              <span className="bg-black text-sm md:text-base">
                 Whether it's developing dynamic front-end interfaces or
                 designing efficient back-end architectures, I bring a meticulous
                 and innovative approach to my work. I am committed to delivering
